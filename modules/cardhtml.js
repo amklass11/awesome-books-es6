@@ -24,4 +24,4 @@ const printList = () => {
     });
   }
 };
-export default { printList, books };
+export default printList;

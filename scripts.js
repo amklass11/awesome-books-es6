@@ -1,4 +1,4 @@
-import { startTime, checkTime } from './modules/Time';
+import { startTime } from './modules/Time.js';
 import Libro from './modules/books.js';
 import printList from './modules/cardhtml.js';
 
@@ -6,7 +6,6 @@ const booksBtn = document.getElementById('booksBtn');
 const addBookbtn = document.getElementById('addbookBtn');
 const contactBtn = document.getElementById('contactBtn');
 const containerBooks = document.getElementById('container');
-// const books = document.getElementById('books');
 const addNew = document.getElementById('addbook');
 const contact = document.getElementById('contact');
 const titulo = document.getElementById('titulo');
