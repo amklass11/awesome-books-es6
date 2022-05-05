@@ -1,6 +1,6 @@
-import { startTime } from './modules/Time.js';
 import Libro from './modules/books.js';
 import printList from './modules/cardhtml.js';
+import showDate from './modules/dates.js';
 
 const booksBtn = document.getElementById('booksBtn');
 const addBookbtn = document.getElementById('addbookBtn');
@@ -12,7 +12,7 @@ const titulo = document.getElementById('titulo');
 const autor = document.getElementById('autor');
 const addBtn = document.getElementById('btn');
 
-window.onload = startTime();
+showDate();
 printList();
 
 addBtn.addEventListener('click', () => {
